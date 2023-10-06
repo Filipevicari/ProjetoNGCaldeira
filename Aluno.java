@@ -6,9 +6,9 @@ public class Aluno {
 
         String nome;
         String curso;
+        Double notas;
 
-
-        System.out.println(Avaliacao);
+System.out.println(Avaliacao);
 
 
     }
