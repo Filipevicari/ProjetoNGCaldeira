@@ -17,7 +17,7 @@ public class ponderada {
 
 
 
-        media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 4)) / 3;
+        media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 4)) / 9;
 
         System.out.println("A média foi: " + media);
     }
