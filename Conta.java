@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Conta  {
-    private static class main(String[] args{
+    
         Scanner contaDoFilipe  = new Scanner(System.in);
 
         int numero;
@@ -32,4 +32,3 @@ public class Conta  {
 
     }
 
-}
