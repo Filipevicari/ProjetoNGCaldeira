@@ -1,0 +1,14 @@
+public class Ingresso {
+    private String nomeEvento;
+    private double valor;
+
+    public Ingresso(String nomeEvento, Double valor) {
+        this.nomeEvento = nomeEvento;
+        this.valor = valor;
+    }
+
+    public  void imprimir() {
+        System.out.println("Nome do Evento: " + nomeEvento);
+        System.out.println("Valor do ingresso; " + valor);
+    }
+}
