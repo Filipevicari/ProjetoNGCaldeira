@@ -1,0 +1,14 @@
+public class IngressoVIP extends Ingresso {
+
+    private double adicional;
+
+    public IngressoVIP(double adicional)
+        super(nomeEvento,valor);
+        this.adicional =adicional;
+
+    @Override
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("Ingresso VIP adicional; " + adicional);
+    }
+}
